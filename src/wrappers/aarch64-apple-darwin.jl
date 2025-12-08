@@ -4,8 +4,8 @@ export libprotobuf, libprotoc, protoc
 using CompilerSupportLibraries_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("ProtocolBuffersCompiler")
-JLLWrappers.@declare_library_product(libprotobuf, "@rpath/libprotobuf.3.16.0.0.dylib")
-JLLWrappers.@declare_library_product(libprotoc, "@rpath/libprotoc.3.16.0.0.dylib")
+JLLWrappers.@declare_library_product(libprotobuf, "@rpath/libprotobuf.3.16.1.0.dylib")
+JLLWrappers.@declare_library_product(libprotoc, "@rpath/libprotoc.3.16.1.0.dylib")
 JLLWrappers.@declare_executable_product(protoc)
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, Zlib_jll)
